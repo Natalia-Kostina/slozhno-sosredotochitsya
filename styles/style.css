@@ -3,6 +3,7 @@
 .page {
   background-color: var(--bg-color);/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--ffamily);
+  background-attachment: fixed;
 }
 
 .header {
@@ -233,7 +234,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: 60px 0 0;
   gap: var(--main-gap);
   margin: 60px 0 0;
 }
@@ -314,7 +314,7 @@
   }
 }
 
-@media (width <= 375px){
+@media (width <= 375px) {
   .section__why {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -354,7 +354,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 260px 315px 428px;
   gap: var(--main-gap);
   box-sizing: border-box;
@@ -425,6 +425,7 @@
 
 .footer {
   position: relative;
+  max-height: 768px;
 }
 
 .title__footer {
