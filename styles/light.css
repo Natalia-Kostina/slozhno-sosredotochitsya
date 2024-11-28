@@ -5,6 +5,7 @@
     --title-color: #FFC2E6;
     --text-color: #353430;
     --color-header: #353430;
+    --color-header-hover: rgb(53, 52, 48, 0.4);
     --accent-text-color: #353430;
     --ffamily: IBM Plex Mono;
     --title-fsize: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
